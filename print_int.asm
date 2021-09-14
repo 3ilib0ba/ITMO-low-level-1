@@ -20,7 +20,7 @@ push r14
 push r15 
 
         mov rdi, 123123
-        call print_uint
+        call print_int
         
 cmp r15, [rsp] 
 jne .convention_error
